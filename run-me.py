@@ -10,7 +10,8 @@ import gobject
 
 import RPi.GPIO as GPIO
 import time
-LUEZ_DEV = "org.bluez.MediaControl1"
+
+BLUEZ_DEV = "org.bluez.MediaControl1"
 AUX_PIN = 40
 CBLSAT_PIN = 38
 
