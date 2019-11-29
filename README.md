@@ -2,9 +2,9 @@
 
 # Explanation:
 
-run-me.py listens to the BlueZ 5 DBus and executes either the:
-- switch-to-aux script on connect
-- switch-to-cblsat script on disconnect
+run-me.py listens to the BlueZ 5 DBus connection and either pulses:
+- GPIO pin 40 on connect
+- GPIO pin 38 on disconnect
 
 # Usage:
 sudo python run-me.py
