@@ -10,14 +10,10 @@ import gobject
 
 import RPi.GPIO as GPIO
 import time
-# import subprocess
-BLUEZ_DEV = "org.bluez.MediaControl1"
+LUEZ_DEV = "org.bluez.MediaControl1"
 AUX_PIN = 40
 CBLSAT_PIN = 38
 
-#def exec_bash_command(bash_command):
-#    process = subprocess.Popen(bash_command.split(), stout=subprocess.PIPE)
-#    output, error = process.communicate()
 
 def trigger_pin(pin):
     GPIO.output(pin, GPIO.HIGH)
