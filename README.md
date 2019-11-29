@@ -9,5 +9,5 @@ run-me.py listens to the BlueZ 5 DBus connection and either pulses:
 # Usage:
 sudo python run-me.py
 
-mkyper c 2019
+mkyper © 2019
 
